@@ -1,3 +1,5 @@
+'use client';
+
 import './trainer.css';
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
