@@ -1,7 +1,7 @@
 body {
   font-family: Calibri, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #f1f1f1;
+  color: #1b3d2f;
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,7 @@ body {
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: white;
+  background-color: #fffbe8;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -18,28 +18,28 @@ body {
 .participant-title {
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #1b3d2f;
   padding-bottom: 0.5rem;
 }
 
 .participant-text {
   font-size: 1rem;
   margin-bottom: 2rem;
-  color: #555;
+  color: #311e07;
 }
 
 .participant-subtitle {
   font-size: 1.25rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  border-left: 4px solid #777;
+  border-left: 4px solid #e09e3e;
   padding-left: 0.75rem;
-  color: #444;
+  color: #504538;
 }
 
 .form-field {
-  background-color: #f1f1f1;
-  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border: 1px solid #e09e3e;
   border-radius: 4px;
   padding: 0.75rem 1rem;
   margin-bottom: 0.75rem;
@@ -55,7 +55,7 @@ body {
 }
 
 section:not(:last-child) {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #1b3d2f;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
@@ -69,10 +69,18 @@ section:not(:last-child) {
   border: none;
   cursor: pointer;
   font-size: 1rem;
-  color: #333;
+  color: #8f9800;
   padding-left: 0.25rem;
 }
 
-.add-button .icon {
+.icon {
+  color: #8f9800;
+}
+
+.add-button .add-icon {
   font-size: 1.2rem;
+}
+
+label {
+  color:#311e07
 }
