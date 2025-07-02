@@ -1,14 +1,13 @@
-'use client';
-
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 import './admin.css';
 
+export default function AdminPage() {
+  return (
 
-<main>
+    <main>
 
-  <p>Work in progress</p>
+      <p>Work in progress</p>
 
-</main>
+    </main>
 
+  )
+}
